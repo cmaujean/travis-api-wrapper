@@ -1,0 +1,15 @@
+h1. travis-node
+
+an asynchronous  node.js wrapper for the travis-ci api, as published at 
+the "travis-ci docs":http://about.travis-ci.org/docs/dev/api/ written to be compatible with node 0.5.6
+
+h2. Usage
+
+npm install (coming soon)
+
+<pre><code>
+  var travis = require('travis-node');
+  
+  build = travis.build(12345, 'cmaujean/travis-node');
+  # build is a json object representing a build. see the travis-ci api docs for more info
+</code></pre>
