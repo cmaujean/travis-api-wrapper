@@ -1,0 +1,7 @@
+{ 
+  "name": "travis",
+  "main": "./lib/travis.js",
+  "dependencies": {
+    "vows": "0.5.11"
+  }
+}
