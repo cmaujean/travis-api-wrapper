@@ -1,7 +1,7 @@
 var vows = require('vows'),
     assert = require('assert');
 
-var travis = require('travis');
+var travis = require('travis-node');
 
 // The repository we will test with
 var our_repo = 'cmaujean/spree';
