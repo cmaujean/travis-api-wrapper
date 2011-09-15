@@ -4,9 +4,9 @@ var vows = require('vows'),
 var travis = require('travis-node');
 
 // The repository we will test with
-var our_repo = 'cmaujean/spree';
+var our_repo = 'cmaujean/travis-node';
 
-vows.describe('travis').addBatch({
+vows.describe('travis-node').addBatch({
   'repositories': { 
     topic: function () {
       travis.repositories(this.callback);
@@ -33,7 +33,7 @@ vows.describe('travis').addBatch({
     'returns a set of builds': function(err, data) {
       assert.isNull(err);
       assert.isNotNull(data);
-      assert.equal(data[0].repository_id, 2169);
+      assert.equal(data[0].repository_id, 2182);
     }
   },
   'build': {
