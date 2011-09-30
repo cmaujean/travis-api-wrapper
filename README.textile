@@ -1,4 +1,4 @@
-h1. travis-node
+h1. travis-node !https://secure.travis-ci.org/cmaujean/travis-api-wrapper.png!
 
 an asynchronous  node.js wrapper for the travis-ci api, as published at 
 the "travis-ci docs":http://about.travis-ci.org/docs/dev/api/ written to be compatible with node 0.5.6
