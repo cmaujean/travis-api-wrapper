@@ -1,4 +1,4 @@
-h1. travis-node !https://secure.travis-ci.org/cmaujean/travis-api-wrapper.png!
+h1. travis-api-wrapper !https://secure.travis-ci.org/cmaujean/travis-api-wrapper.png!
 
 an asynchronous  node.js wrapper for the travis-ci api, as published at 
 the "travis-ci docs":http://about.travis-ci.org/docs/dev/api/ written to be compatible with node 0.5.6
@@ -8,8 +8,8 @@ h2. Usage
 npm install (coming soon)
 
 <pre><code>
-  var travis = require('travis-node');
+  var travis = require('travis-api-wrapper');
   
-  build = travis.build(12345, 'cmaujean/travis-node');
+  build = travis.build(12345, 'cmaujean/travis-api-wrapper');
   # build is a json object representing a build. see the travis-ci api docs for more info
 </code></pre>
