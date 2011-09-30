@@ -1,12 +1,19 @@
 { 
-  "name": "travis-node",
-  "main": "./lib/travis.js",
+  "name": "travis-api-wrapper",
+  "main": "lib/travis-api-wrapper.js",
   "version": "0.0.1",
-  "dependencies": {
+  "devDependencies": {
     "vows": "0.5.11"
   },
+  "files": ["lib", "test", "bin"],
   "scripts": {
     "test": "bin/test.sh"
-  }
+  },
+  "repository": { 
+    "type": "git", 
+    "url": "http://github.com/cmaujean/travis-api-wrapper.git"
+  },
+  "engines": {"node": "0.5.6" }
+  
 }
 
